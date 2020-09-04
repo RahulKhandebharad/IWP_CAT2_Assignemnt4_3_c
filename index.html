@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <h2>3.c.Apply multiple CSS properties using css() method</h2>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#p1").css({"background-color": "yellow", "font-size": "200%"});
+    $("#p2").css({"background-color": "lightgreen", "font-size": "400%"});
+    $("#p3").css({"background-color": "lightblue", "font-size": "600%"});
+  });
+});
+</script>
+</head>
+<body>
+
+
+<p id="p1" style="background-color:#ff0000">This is 1 st paragraph.</p>
+<p id="p2" style="background-color:#00ff00">This is 2 nd paragraph.</p>
+<p id="p3" style="background-color:#0000ff">This is 3 rd paragraph.</p>
+
+
+<button>Add multiple CSS properties.</button>
+
+</body>
+</html>
